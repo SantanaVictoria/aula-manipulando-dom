@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Manipulando o DOM - Aula 3</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <button onclick="mostraTintas(this)">Aluratintas em estoque:</button>
+
+    <ul class="lista">
+        <li data-cor="laranja" tipo="tinta-exterior" class="item">Tinta laranja</li>
+        <li data-cor="vermelho" tipo="tinta-interior" class="item">Tinta vermelha</li>
+        <li data-cor="branco" tipo="tinta-interior" class="item">Tinta branca</li>
+        <li data-cor="amarelo" tipo="tinta-exterior" class="item">Tinta amarela</li>
+        <li data-cor="rosa" tipo="tinta-exterior" class="item">Tinta rosa</li>
+        <li data-cor="preto" tipo="tinta-exterior" class="item">Tinta preta</li>
+    </ul>
+
+    <div>
+        <button id="botao" type="button" data-lista class="btn btn-dark mostrar">Abrir</button>
+        <button id="botao" type="button" class="close btn btn-dark esconder">Fechar</button>
+    </div>
+
+
+  <script src="main.js"></script>
+</body>
+</html>
